@@ -1,11 +1,14 @@
 {
   "editor.minimap.enabled": false,
-  "editor.wrappingIndent": "indent",
   "editor.overviewRulerBorder": false,
-  "editor.lineHeight": 24,
+  "editor.fontSize": 16,
+  "editor.lineHeight": 28,
+
   "workbench.colorTheme": "Gray Matter Light",
   "[markdown]": {
-    "editor.quickSuggestions": true
+    "editor.quickSuggestions": true,
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.wordWrapColumn": 96
   },
   "git.enableSmartCommit": true,
   "git.postCommitCommand": "sync",
